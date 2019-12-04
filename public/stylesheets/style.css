@@ -1,0 +1,65 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", serif;
+}
+h6{
+  padding-left: 5%;
+}
+p{
+    font-size:25px;
+    margin-left: 5%;
+}
+
+.navbar-brand {
+  font-family:  Helvetica;
+}
+
+legend {
+  font-family: 'fantasy', Helvetica;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: #000000;
+  background-color: mintcream;
+  
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: saddlebrown;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a li:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul {
+  overflow: hidden;
+}

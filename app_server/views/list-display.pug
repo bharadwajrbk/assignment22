@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  each movie in movies
+    ul
+      li
+        h2 #{movie.title}
+         h4 #{movie.Director}
